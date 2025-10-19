@@ -1,0 +1,78 @@
+
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz Chinois — William Guiovanna</title>
+  <meta name="description" content="Page d'accueil du quiz chinois : import de tableaux, paramètres et aperçu des données.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a class="logo" href="#accueil" style="text-decoration:none;font-weight:700;">Quiz Chinois</a>
+      <button aria-controls="menu" aria-label="Ouvrir le menu">☰</button>
+      <nav id="menu" aria-label="Navigation principale">
+        <ul>
+          <li><a href="#import">Importer</a></li>
+          <li><a href="#params">Paramètres</a></li>
+          <li><a href="#apercu">Aperçu</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="accueil" class="container">
+    <section class="section">
+      <h1>Quiz Chinois — Importe tes tableaux</h1>
+      <h2>Quiz Chinois — Colle les tableaux (caractères, pinyin, traduction)</h2>
+    </section>
+
+    <section id="import" class="section">
+      <h3>1) Importer la liste</h3>
+      <p>Colle une ligne par item avec séparateur <code>\</code> (espaces autour acceptés) :</p>
+      <pre><code>汉字 \ pinyin \ traduction française</code></pre>
+      <p>Exemples :</p>
+      <pre><code>你好 \ nǐ hǎo \ bonjour
+中国 \ zhōngguó \ Chine</code></pre>
+
+      <details>
+        <summary>Conseils rapides</summary>
+        <ul>
+          <li>Tu peux coller directement toute la liste des tableaux 1 &amp; 2 + les 27 mots.</li>
+          <li>Format minimal possible (si pas de pinyin) : <code>汉字 \ \ traduction</code>.</li>
+          <li>Les distracteurs (faux choix) sont générés automatiquement à partir des autres traductions de la liste.</li>
+          <li>Tout se passe en local (aucune donnée n'est envoyée). Le progrès est mémorisé dans le navigateur.</li>
+        </ul>
+      </details>
+    </section>
+
+    <section id="params" class="section">
+      <h3>2) Paramètres du quiz</h3>
+      <ul>
+        <li>Modes : ZH → FR (QCM), FR → ZH (QCM), Dictée (chinois ↔ français), Cartes (révision libre).</li>
+        <li>Option : afficher le pinyin quand disponible.</li>
+        <li>Nombre de questions : Tout, 10, 20, 30, 50.</li>
+      </ul>
+      <p><em>Aucun item chargé. Démarrer le quiz</em></p>
+      <p>Question 0/0 · Score : 0 — <a href="#">↺ Recommencer</a></p>
+      <h4>Résumé</h4>
+      <p>Score final : 0</p>
+    </section>
+
+    <section id="apercu" class="section">
+      <h3>3) Aperçu des données</h3>
+      <p>Aucune donnée pour l'instant.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <small>© <span id="year"></span> William Guiovanna — Tous droits réservés.</small>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js" defer></script>
+</body>
+</html>

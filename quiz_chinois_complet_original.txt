@@ -1,0 +1,32 @@
+# Contenu fourni par l'utilisateur (copie brute)
+
+Quiz Chinois — Importe tes tableaux
+
+Quiz Chinois — Colle les tableaux (caractères, pinyin, traduction)
+
+1) Importer la liste
+
+汉字 \ pinyin \ traduction française
+
+Colle une ligne par item sous la forme ci-dessus.
+
+Conseils rapides
+- Tu peux coller directement toute la liste des tableaux 1 & 2 + les 27 mots.
+- Si tu n'as pas le pinyin pour tous, tu peux laisser le champ du milieu vide.
+- Les distracteurs (faux choix) sont générés automatiquement à partir des autres traductions de la liste.
+- Tout se passe en local (aucune donnée n'est envoyée sur Internet). Le progrès est mémorisé dans le navigateur.
+
+2) Paramètres du quiz
+- Modes: ZH → FR (QCM), FR → ZH (QCM), Dictée (écrire le chinois ↔ français), Cartes (révision libre)
+- Afficher le pinyin quand disponible
+- Nombre de questions : Tout / 10 / 20 / 30 / 50
+
+Aucun item chargé. Démarrer le quiz
+Question 0/0 · Score : 0
+↺ Recommencer
+
+Résumé
+Score final : 0
+
+3) Aperçu des données
+Aucune donnée pour l'instant.
